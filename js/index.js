@@ -135,7 +135,7 @@ let swiperModule = (function () {
         init(index = 1) {
             $swiperBox.css('display', 'block');
             if (swiperExample) {
-                swiperExample.sildeTo(index, 0);
+                swiperExample.slideTo(index, 0);
                 return;
             }
             swiperExample = new Swiper('.swiper-container', {
